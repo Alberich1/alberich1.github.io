@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="map2.js"></script>
+</head>
+
+<body class="body-class">
+
+<header class="header-class">
+<h1 class="title-class">Help Hub</h1>
+
+<nav class="nav-class">
+    <a href="helphubhome.html" class="nav-link-class"> Home </a>
+    <a href="helphubcharitylist.html" class="nav-link-class"> Charities List </a>
+</nav>
+</header>
+
+<div class="about-body">
+
+<h2>Pregnancy Aid Clinic</h2>
+
+<a href="https://www.pregnancyaidclinic.com/" class="charity-link">Link to Charity website</a>
+
+
+<button class="volunteer-button">Volunteer Now!</button>
+
+<div id="volunteerForm" style="display: none;">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit" class="submit-button">
+    </form>
+</div>
+
+
+<h3>Social Media</h3>
+
+<table>
+    <tr>
+        <td><a href="http://www.facebook.com/pacpropage"><button>Facebook</button></a></td>
+        <td><a href="http://www.instagram.com/pregnancy_aid_clinic"><button>Instagram</button></a></td>
+    </tr>
+</table>
+
+<h3>About Charity</h3>
+<p>The Pregnacy Aid Clinic provides medical services and other services to mothers and fathers regardless of financial ability, race, age, or religion. They strive to protect children by helping families. There's many different ways to volunteer from teaching classes to helping in the "Baby Boutique."</p>
+
+</div>
+
+<script src="charityprofile.js"></script>
+
+<div id="map2"></div>
+
+
+</body>

@@ -1,0 +1,219 @@
+.body-class {
+    background-color: #f0dbb7;
+}
+
+.header-class {
+    background-color: #208339;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+}
+
+.title-class {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #f0dbb7;
+    margin: 0;
+    font-size: 50px; 
+}
+
+.nav-class {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex; 
+    gap: 20px;
+    font-size: 22px; 
+}
+
+.nav-link-class {
+    color: #f0dbb7;
+    text-decoration: none; 
+    padding: 10px; 
+}
+
+.charity-list-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .home-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+  }
+  
+  .home-body img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .about-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #124C21;
+}
+
+h3 {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #208339;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #208339;
+}
+
+button {
+    background-color: #208339;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f0dbb7;
+}
+
+.charity-list th {
+    background-color: #124C21;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;  
+    font-size: 15px;
+    color: #f0dbb7;
+}
+
+.charity-list td {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #208339;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.charity-link {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #208339;
+}
+
+.volunteer-button {
+    background-color: #208339;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f0dbb7;
+    display: inline-block;
+}
+
+label {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #208339; 
+}
+
+input {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #124C21;
+    background-color: #f0e0c5;
+}
+
+.submit-button {
+    background-color: #208339;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f0dbb7;
+    display: inline-block;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+#map1 { 
+    height: 400px; 
+}
+
+#map2 { 
+    height: 400px; 
+}
+
+#map3 { 
+    height: 400px; 
+}
+
+.charity-list {
+    width: 100%; 
+    table-layout: fixed; 
+    border-collapse: collapse; 
+}
+
+.charity-list th, 
+.charity-list td {
+    padding: 15px; 
+    vertical-align: top; 
+}
+
+.charity-list th:nth-child(1),
+.charity-list td:nth-child(1) {
+    width: 25%;
+}
+
+.charity-list th:nth-child(2),
+.charity-list td:nth-child(2) {
+    width: 50%;
+}
+
+.charity-list th:nth-child(3),
+.charity-list td:nth-child(3) {
+    width: 25%;
+}
+
+.charity-list th:nth-child(3) button,
+.charity-list td:nth-child(3) button {
+    width: auto;
+    margin: 0;
+    padding: 5px 10px;
+}
